@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Calcolatrice - Home</title>
+</head>
+<body>
+    <div class="container">
+            <div id="titolo"><h2>Calcolatrice</h2></div>
+            <input id="testo" readonly>
+            <div class="lista">
+                <button  onclick="input('7');">7</button>
+                <button  onclick="input('8');">8</button>
+                <button  onclick="input('9');">9</button>
+                <button  onclick="input('*');" class="operatore">x</button>
+                <button  onclick="input('4');">4</button>
+                <button  onclick="input('5');">5</button>
+                <button  onclick="input('6');">6</button>
+                <button  onclick="input('-');" class="operatore">-</button>
+                <button  onclick="input('1');">1</button>
+                <button  onclick="input('2');">2</button>
+                <button  onclick="input('3');">3</button>
+                <button  onclick="input('+');" class="operatore">+</button>
+                <button  onclick="input('0');">0</button>
+                <button  onclick="input('/');" class="operatore">/</button>
+                <button  onclick="uguale();">=</button>
+                <button  onclick="pulisci();" class="elimina">C</button>
+                <button  onclick="input('.');">.</button>
+            </div>
+    </div>
+    <p>*Non pensato per essere messo online</p>
+    <script src="https://kit.fontawesome.com/f9eddf4988.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
